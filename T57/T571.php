@@ -35,6 +35,22 @@ class osoba
     function pobierzWiek(){
         return $this ->wiek;
     }
+
 }
+
+$osoba = new Osoba();
+$osoba -> wpiszImie("Jarek");
+$imie = $osoba -> pobierzImie();
+$osoba -> wpiszNazwisko("Gliwicki");
+$nazwisko = $osoba -> pobierzNazwisko();
+$osoba -> wpiszId(3);
+$ID = $osoba -> pobierzId();
+$osoba -> wpiszWiek(23);
+$wiek = $osoba -> pobierzWiek();
+
+echo "imie: $imie <br>";
+echo "nazwisko: $nazwisko <br>";
+echo "wiek: $wiek <br>";
+echo "ID: $ID <br>";
 
 ?>
