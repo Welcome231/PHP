@@ -1,0 +1,74 @@
+/* Reset domyślnych marginesów i paddingów */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ogólne ustawienia strony */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    color: #333;
+}
+
+/* Nagłówki */
+p b {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+/* Formularz */
+form {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ccc;
+    width: 300px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+/* Lista rozwijana */
+select {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Przycisk */
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #3498db;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* Link */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Lista w koszyku */
+li {
+    margin-left: 20px;
+    line-height: 1.6;
+}

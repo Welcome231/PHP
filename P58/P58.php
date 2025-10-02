@@ -14,7 +14,7 @@
     a być może zostaniesz jednym z laureatów konkursu!
 </p>
 
-<form method="post">
+<form method="post" action="P58str2.php">
     <fieldset>
         <legend><strong>Podstawowe dane</strong></legend>
 
@@ -81,22 +81,7 @@
 </form>
 
 <?php
-    if($_SERVER["REQUEST_METHOD"] == "POST") {
-        $name = $_REQUEST["name"];
-        $email = $_REQUEST["email"];
-        $phone = $_REQUEST["phone"];
-        $description = $_REQUEST["description"];
-        $color = $_REQUEST["color"];
-        $size = $_REQUEST["size"];
-        $options = $_REQUEST["options"];
 
-
-        echo "$name <br> $email <br> $phone <br> $description <br> $color <br> $size <br> ";
-        foreach ($options as $option) {
-            echo "$option <br>";
-        }
-
-    }
 ?>
 </body>
 
